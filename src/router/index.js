@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Profile from '../views/Profile.vue'
+import Pendidikan from '../views/Pendidikan.vue'
+import Pengalaman from '../views/Pengalaman.vue'
+import Kontak from '../views/Kontak.vue'
+import Lainnya from '../views/Lainnya.vue'
 
 const routes = [
   {
@@ -16,7 +21,32 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
-  }
+  },
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: Profile
+  },
+  {
+    path: '/pendidikan',
+    name: 'Pendidikan',
+    component: Pendidikan
+  },
+  {
+    path: '/pengalaman',
+    name: 'Pengalaman',
+    component: Pengalaman
+  },
+  {
+    path: '/kontak',
+    name: 'Kontak',
+    component: Kontak
+  },
+  {
+    path: '/lainnya',
+    name: 'Lainnya',
+    component: Lainnya
+  },
 ]
 
 const router = createRouter({

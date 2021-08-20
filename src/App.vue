@@ -1,10 +1,10 @@
 <template>
   <section class="menu mb-5">
-    <nav class="navbar navbar-light fixed-top">
+    <nav class="navbar navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#"><i class="fas fa-book-reader"></i> CV</a>
+        <a class="navbar-brand" href="#" style="color:#082032;"><i style="color:#082032;" class="fas fa-book-reader"></i> CV</a>
         <button style="border-radius:0;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <i class="fas fa-list-ul"></i>
+          <i class="fas fa-list-ul" style="color:#082032;"></i>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
@@ -17,7 +17,19 @@
                 <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link active" aria-current="page" to="/about">About</router-link>
+                <router-link class="nav-link active" aria-current="page" to="/profile">Profile</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link active" aria-current="page" to="/pendidikan">Pendidikan</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link active" aria-current="page" to="/pengalaman">Pengalaman</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link active" aria-current="page" to="/kontak">Kontak</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link active" aria-current="page" to="/lainnya">Lainnya</router-link>
               </li>
             </ul>
           </div>
@@ -26,6 +38,9 @@
     </nav>
   </section>
   <router-view/>
+  <footer class="text-center mt-5">
+    <p>Created by <i class="fas fa-heart"></i> Felis</p>
+  </footer>
 </template>
 
 <style>
@@ -39,5 +54,9 @@
 
 #nav a.router-link-exact-active {
   color: transparent;
+}
+.bg-dark3 {
+    background-color: #334756;
+    color: whitesmoke;
 }
 </style>
