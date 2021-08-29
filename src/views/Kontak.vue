@@ -8,7 +8,7 @@
         <div class="bg-dark1">
             <h3 class="mt-3">Kontak</h3>
             <div class="container">
-                <iframe class="gmap_iframe maps-h" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= Jalan Layar Raya No.72, Kelapa Dua, Kelapa Dua KAB. TANGERANG - KELAPA DUA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                <iframe class="gmap_iframe maps-h mt-3" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= Jalan Layar Raya No.72, Kelapa Dua, Kelapa Dua KAB. TANGERANG - KELAPA DUA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                 <br>
                 <div class="row">
                     <div class="col-lg-4 mt-3">
