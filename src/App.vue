@@ -2,7 +2,7 @@
   <section class="menu mb-5">
     <nav class="navbar navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#" style="color:#082032;"><i style="color:#082032;" class="fas fa-book-reader"></i> CV</a>
+        <a class="navbar-brand" href="#" style="color:#082032;"></a>
         <button style="border-radius:0;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <i class="fas fa-list-ul" style="color:#082032;"></i>
         </button>
@@ -29,7 +29,7 @@
                 <router-link class="nav-link active" aria-current="page" to="/kontak">Kontak</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link active" aria-current="page" to="/lainnya">Lainnya</router-link>
+                <router-link class="nav-link active" aria-current="page" to="/skill">Skill</router-link>
               </li>
             </ul>
           </div>

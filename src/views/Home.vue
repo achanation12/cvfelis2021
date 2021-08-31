@@ -10,7 +10,7 @@
             <figure class="text-center">
               <blockquote class="blockquote">
                 <p>
-                <i class="fas fa-quote-right"></i> Saya sangat menyukai sekali pemrograman/koding karena sebuah kumpulan huruf dan angka bisa menjadi sebuah interface yang bisa berinteraksi dengan manusia. <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i> Saya sangat menyukai sekali pemrograman/koding karena bisa merubah kumpulan huruf dan angka bisa menjadi sebuah interface yang bisa berinteraksi dengan banyak orang. <i class="fas fa-quote-left"></i>
                 </p>
               </blockquote>
               <figcaption class="blockquote-footer">

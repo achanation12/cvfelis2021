@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import Home from '../views/Home.vue'
 import Profile from '../views/Profile.vue'
 import Pendidikan from '../views/Pendidikan.vue'
 import Pengalaman from '../views/Pengalaman.vue'
 import Kontak from '../views/Kontak.vue'
-import Lainnya from '../views/Lainnya.vue'
+import Lainnya from '../views/Skill.vue'
 
 const routes = [
   {
@@ -43,8 +44,8 @@ const routes = [
     component: Kontak
   },
   {
-    path: '/lainnya',
-    name: 'Lainnya',
+    path: '/skill',
+    name: 'Skill',
     component: Lainnya
   },
 ]
