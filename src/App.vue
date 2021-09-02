@@ -2,10 +2,10 @@
   <section class="menu mb-5">
     <nav class="navbar navbar-light">
       <div class="container">
+        <a class="navbar-brand" href="#" style="color:#082032;"></a>
           <button style="border-radius:0;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <i class="fas fa-list-ul" style="color:#082032;"></i>
           </button>
-        <a class="navbar-brand" href="#" style="color:#082032;"></a>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mycvf</h5>
