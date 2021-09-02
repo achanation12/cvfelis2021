@@ -19,7 +19,7 @@
             </figure>
         </div>
         <div class="col-lg-6">
-          <img class="img img-fluid rounded-circle w-50" src="../assets/pp2.jpeg" alt="">
+          <img class="img img-fluid rounded-circle" src="../assets/pp2.webp" alt="">
         </div>
       </div>
     </div>
