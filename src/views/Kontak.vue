@@ -6,19 +6,30 @@
         </div>
 
         <div class="bg-dark1">
-            <h3 class="mt-3">Kontak</h3>
-            <div class="container">
-                <iframe class="gmap_iframe maps-h mt-3" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= Jalan Layar Raya No.72, Kelapa Dua, Kelapa Dua KAB. TANGERANG - KELAPA DUA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4 mt-3">
-                        <i class="fas fa-phone" style="color:#082032;background-color:white;padding:5px; border-radius:100%;"></i> +6285216359147
-                    </div>
-                    <div class="col-lg-4 mt-3">
-                        <i class="fas fa-map-marker-alt" style="color:#082032;background-color:white;padding:5px; border-radius:100%;"></i> Jalan Layar Raya No.72, Kelapa Dua, Kelapa Dua KAB. TANGERANG - KELAPA DUA
-                    </div>
-                    <div class="col-lg-4 mt-3">
-                        <i class="fas fa-envelope" style="color:#082032;background-color:white;padding:5px; border-radius:100%;"></i> galihjunaedifelis@gmail.com
+            <h3>Kontak</h3>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <iframe class="gmap_iframe maps-h mt-3" style="border-radius:40px;" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= Jalan Layar Raya No.72, Kelapa Dua, Kelapa Dua KAB. TANGERANG - KELAPA DUA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+                <div class="col-lg-3 mt-3 bg-message-me">
+                    <div class="container-fluid">
+                        <h3>Message Me!</h3>
+                        <form action="" class="text-start">
+                            <input style="border-radius:5px;" type="text" class="form-control" placeholder="E-mail">
+                            <textarea style="border-radius:5px;" class="form-control mt-3" name="" id="" cols="30" rows="10" placeholder="Write now ..."></textarea>
+                            <button type="submit" class="btn btn-sm btn-outline-primary btn-block mt-3">Send <i class="fas fa-paper-plane"></i></button>          
+                        </form>
+                        <div class="text-center mt-3">
+                            <p>
+                                Contast Us!
+                            </p>
+                            <a href="">
+                                <img width="40" class="img img-fluid" src="../assets/kontak/whatsapp.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img width="40" class="img img-fluid" src="../assets/kontak/gmail.svg" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -30,17 +41,27 @@
 <style scoped>
     .bg-dark1 {
         padding: 30px;
-        background-color: #082032;
-        color: whitesmoke;
+        background-image: linear-gradient(to right, #C9CCD5 , #E4D8DC);
     }
 
     .maps-h {
         height: 600px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+    }
+
+    .bg-message-me {
+        background-color: white;
+        border-radius: 40px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
     }
 
     @media (max-width: 575.98px) {
         .maps-h {
-            height: 50%;
+            height: 300px;
         }
     }
 </style>

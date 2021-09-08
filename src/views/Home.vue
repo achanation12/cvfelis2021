@@ -1,12 +1,12 @@
 <template>
   <section class="home">
     <div class="header pb-5">
-      <h1>Whatever you are, be a good one</h1>
-      <p>You can call me Felis</p>
+      <h1>Home</h1>
+      <p>Whatever you are, be a good one</p>
     </div>
     <div class="content container mt-5">
       <div class="row">
-        <div class="col-lg-6 d-flex align-self-center" style="border-right:1px solid #FF4C29;">
+        <div class="col-lg-6 d-flex align-self-center" style="border-right:1px solid #93B5C6;">
             <figure class="text-center">
               <blockquote class="blockquote">
                 <p>
