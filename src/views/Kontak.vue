@@ -1,8 +1,8 @@
 <template>
     <section class="kontak">
         <div class="header pb-5">
-            <h1>Be the change that you wish to see in the world</h1>
-            <p>i want call you broders</p>
+            <h1>Kontak</h1>
+            <p>Be the change that you wish to see in the world</p>
         </div>
 
         <div class="bg-dark1">
