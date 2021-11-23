@@ -5,32 +5,31 @@
             <p>Be the change that you wish to see in the world</p>
         </div>
 
-        <div class="bg-dark1">
+        <div class="bg-dark1 pb-3">
             <h3>Kontak</h3>
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <iframe class="gmap_iframe maps-h mt-3" style="border-radius:40px;" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= Jalan Layar Raya No.72, Kelapa Dua, Kelapa Dua KAB. TANGERANG - KELAPA DUA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                 </div>
-                <div class="col-lg-3 mt-3 bg-message-me">
-                    <div class="container-fluid">
-                        <h3>Message Me!</h3>
-                        <form action="" class="text-start">
-                            <input style="border-radius:5px;" type="text" class="form-control" placeholder="E-mail">
-                            <textarea style="border-radius:5px;" class="form-control mt-3" name="" id="" cols="30" rows="10" placeholder="Write now ..."></textarea>
-                            <button type="submit" class="btn btn-sm btn-outline-primary btn-block mt-3">Send <i class="fas fa-paper-plane"></i></button>          
-                        </form>
-                        <div class="text-center mt-3">
-                            <p>
-                                Contast Us!
-                            </p>
-                            <a href="">
-                                <img width="40" class="img img-fluid" src="../assets/kontak/whatsapp.svg" alt="">
-                            </a>
-                            <a href="">
-                                <img width="40" class="img img-fluid" src="../assets/kontak/gmail.svg" alt="">
-                            </a>
-                        </div>
-                    </div>
+                <div class="col-lg-3 mt-3 bg-message-me pb-4">
+                  <div class="container-fluid">
+                      <h3>Message Me!</h3>
+                      <form action="" class="text-start">
+                          <input style="border-radius:5px;" type="text" class="form-control" placeholder="your email...">
+                          <textarea style="border-radius:5px;" class="form-control mt-3" name="" id="" cols="30" rows="10" placeholder="Write now ..."></textarea>
+                          <button type="submit" class="btn btn-outline-primary btn-block mt-3">Send <i class="fas fa-paper-plane"></i></button> 
+                          <div class="float-end">
+                            <div class="text-center mt-3 mb-3">
+                                <a href="">
+                                    <img width="40" class="img img-fluid" src="../assets/kontak/whatsapp.svg" alt="">
+                                </a>
+                                <a href="">
+                                    <img width="40" class="img img-fluid" src="../assets/kontak/gmail.svg" alt="">
+                                </a>
+                            </div>
+                          </div>         
+                      </form>
+                  </div>
                 </div>
             </div>
         </div>

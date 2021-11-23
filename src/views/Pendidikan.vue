@@ -11,7 +11,7 @@
                 <div class="mt-4"></div>
                 <img width="250" class="img img-fluid" src="../assets/pendidikan/univ.webp" alt="">
                 <h5 class="fw-bold mt-3">UNIVERSITAS BANTEN JAYA</h5>
-                <p class="fst-italic">2010 - 2013</p>
+                <p class="fst-italic">2016 - 2020</p>
                 <p>(Teknik Informatika)</p>
             </div>
             <div class="col-lg-4 bg-dark3">

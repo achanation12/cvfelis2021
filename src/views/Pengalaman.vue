@@ -19,14 +19,14 @@
                     <img width="200" class="img img-fluid" src="../assets/pengalaman/perpusda.webp" alt="">
                     <p class="fw-bold mt-5">DINAS PERPUSTAKAAN DAN KEARSIPAN PROVINSI BANTEN</p>
                     <p class="fst-italic">2019</p>
-                    <p>(It Support)</p>
+                    <p>(VB .Net Developer)</p>
                 </div>
                 <div class="col-lg-6 bg-dark3">
                     <div class="mt-4"></div>
                     <img width="200" class="img img-fluid" src="../assets/pengalaman/tdw.webp" alt="">
                     <p class="fw-bold mt-5">TDW RESOURCES</p>
                     <p class="fst-italic">2021</p>
-                    <p>(It Support)</p>
+                    <p>(frontend web developer)</p>
                 </div>
             </div>
         </div>
